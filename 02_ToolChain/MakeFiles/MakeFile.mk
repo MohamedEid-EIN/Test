@@ -49,7 +49,7 @@ PLATFORM_DIR      = $(SOFTWARE_ROOT)/08_Platform
 STARTUP_DIR       = $(PLATFORM_DIR)/StartUp_Code
 
 LINKER_DIR        = $(PLATFORM_DIR)/Linker
-LINKER_CFG_DIR    = $(LINKER_DIR)/Cfg
+#LINKER_CFG_DIR    = $(LINKER_DIR)/Cfg
 
 ###############################################
 # Source directories (auto-scan)
@@ -140,7 +140,6 @@ CFLAGS += $(foreach inc,$(INC_DIRS),-I$(inc))
 LINKER_SCRIPT = $(LINKER_DIR)/Linker.ld
 LDFLAGS = -T $(LINKER_SCRIPT) \
           -L$(LINKER_DIR) \
-		  -L$(LINKER_CFG_DIR) \
           -Map=$(MAP_DIR)/$(TARGET).map
 
 ###############################################
