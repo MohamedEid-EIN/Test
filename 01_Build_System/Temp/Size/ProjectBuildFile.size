@@ -8,12 +8,12 @@ section            size        addr
 .debug_info        3243           0
 .debug_abbrev       726           0
 .debug_aranges       96           0
-.debug_line        2312           0
-.debug_str         3069           0
+.debug_line        2126           0
+.debug_str         2945           0
 .comment             38           0
 .ARM.attributes      44           0
 .debug_frame        748           0
-.debug_line_str     219           0
-Total             13653
+.debug_line_str     157           0
+Total             13281
 
 

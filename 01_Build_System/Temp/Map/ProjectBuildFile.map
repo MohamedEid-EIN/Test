@@ -196,16 +196,16 @@ LOAD linker stubs
  .debug_aranges
                 0x00000040       0x20 Temp/Obj/Startup.o
 
-.debug_line     0x00000000      0x908
- .debug_line    0x00000000      0x185 Temp/Obj/main.o
- .debug_line    0x00000185      0x713 Temp/Obj/GPIO.o
- .debug_line    0x00000898       0x70 Temp/Obj/Startup.o
+.debug_line     0x00000000      0x84e
+ .debug_line    0x00000000      0x166 Temp/Obj/main.o
+ .debug_line    0x00000166      0x678 Temp/Obj/GPIO.o
+ .debug_line    0x000007de       0x70 Temp/Obj/Startup.o
 
-.debug_str      0x00000000      0xbfd
- .debug_str     0x00000000      0xbfd Temp/Obj/main.o
-                                0x1ec (size before relaxing)
- .debug_str     0x00000bfd      0xb03 Temp/Obj/GPIO.o
- .debug_str     0x00000bfd       0xe7 Temp/Obj/Startup.o
+.debug_str      0x00000000      0xb81
+ .debug_str     0x00000000      0xb81 Temp/Obj/main.o
+                                0x1ae (size before relaxing)
+ .debug_str     0x00000b81      0xac5 Temp/Obj/GPIO.o
+ .debug_str     0x00000b81       0xa9 Temp/Obj/Startup.o
 
 .comment        0x00000000       0x26
  .comment       0x00000000       0x26 Temp/Obj/main.o
@@ -226,6 +226,6 @@ LOAD linker stubs
  .debug_frame   0x000000c4      0x228 Temp/Obj/GPIO.o
 
 .debug_line_str
-                0x00000000       0xdb
+                0x00000000       0x9d
  .debug_line_str
-                0x00000000       0xdb Temp/Obj/Startup.o
+                0x00000000       0x9d Temp/Obj/Startup.o

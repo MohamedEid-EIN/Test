@@ -1,8 +1,8 @@
-# 0 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Projects/Basic_Software_STM32F401xC/06_Software/01_Application/Source/main.c"
-# 1 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Projects/Basic_Software_STM32F401xC/01_Build_System//"
+# 0 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Test/06_Software/01_Application/Source/main.c"
+# 1 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Test/01_Build_System//"
 # 0 "<built-in>"
 # 0 "<command-line>"
-# 1 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Projects/Basic_Software_STM32F401xC/06_Software/01_Application/Source/main.c"
+# 1 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Test/06_Software/01_Application/Source/main.c"
 
 
 
@@ -26,13 +26,13 @@ typedef struct {
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 # 436 "/usr/lib/gcc/arm-none-eabi/13.2.1/include/stddef.h" 3 4
 } max_align_t;
-# 10 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Projects/Basic_Software_STM32F401xC/06_Software/01_Application/Source/main.c" 2
+# 10 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Test/06_Software/01_Application/Source/main.c" 2
 
 
 
 
 
-# 14 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Projects/Basic_Software_STM32F401xC/06_Software/01_Application/Source/main.c"
+# 14 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Test/06_Software/01_Application/Source/main.c"
 void *memset(void *dest, int value, size_t len)
 {
     unsigned char *p = (unsigned char *)dest;
@@ -42,7 +42,7 @@ void *memset(void *dest, int value, size_t len)
     }
     return dest;
 }
-# 53 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Projects/Basic_Software_STM32F401xC/06_Software/01_Application/Source/main.c"
+# 53 "/home/mohamed/Desktop/GitHub_Repo/My_Repo/Test/06_Software/01_Application/Source/main.c"
 static void delay(volatile unsigned int count)
 {
     while (count--)
