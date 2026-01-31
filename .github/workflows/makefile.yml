@@ -3,13 +3,14 @@ name: Makefile CI
 on:
   push:
     branches: [ "main" ]
+  pull_request:
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repo
+    - name: Checkout repository
       uses: actions/checkout@v4
 
     - name: Install ARM toolchain
@@ -17,5 +18,5 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y gcc-arm-none-eabi
 
-    - name: Build Project
+    - name: Build firmware
       run: make -f 01_Build_System/Makefile
