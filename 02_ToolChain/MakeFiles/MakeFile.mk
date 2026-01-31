@@ -140,6 +140,7 @@ CFLAGS += $(foreach inc,$(INC_DIRS),-I$(inc))
 LINKER_SCRIPT = $(LINKER_DIR)/Linker.ld
 LDFLAGS = -T $(LINKER_SCRIPT) \
           -L$(LINKER_DIR) \
+		  -L$(LINKER_CFG_DIR) \
           -Map=$(MAP_DIR)/$(TARGET).map
 
 ###############################################
